@@ -63,6 +63,7 @@ nav ul{
     font-weight: bold;
     padding: 18px 35px;
     font-size: 20px;
+    
 
 }
 /* headeer */
@@ -131,6 +132,9 @@ main{
     font-weight: 100;
 }
 /*skill portion*/
+.skills{
+    margin-bottom: 0px;
+}
 
 .skill{
     margin: 40px 0px 40px 0px;
@@ -161,4 +165,32 @@ main{
     font-size: 16px;
     color: #757575;
 
+}
+/**summary education*/
+
+.name{
+    margin: 0px auto;
+}
+.summary-education{
+    display: flex;
+}
+.title{
+    color: #474444;
+    font-size: 30px;
+    font-weight: 800;
+}
+.titleh-5{
+    font-size: 25px;
+    color: #474444 ;
+    font-weight: 600;
+}
+.title6{
+    font-size: 20px;
+    color: #757575 ;
+    font-weight: 300;
+}
+.summery-dis{
+    font-size: 16px;
+    color: #757575 ;
+    font-weight: 200;
 }

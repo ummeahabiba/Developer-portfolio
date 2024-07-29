@@ -39,6 +39,9 @@ nav ul{
 .text-primary{
     color: #FD6E0A;
 }
+.text-center{
+    text-align: center;
+}
 .background-2nd{
     background-color: #FFF8F3;
     margin:0 auto ;
@@ -132,9 +135,7 @@ main{
     font-weight: 100;
 }
 /*skill portion*/
-.skills{
-    margin-bottom: 0px;
-}
+
 
 .skill{
     margin: 40px 0px 40px 0px;
@@ -154,7 +155,7 @@ main{
     font-weight: 100;
     text-align: center;
 }
-.skills-container{
+.container{
     display: flex;
     gap: 24px;
     margin: 20px;
@@ -166,31 +167,33 @@ main{
     color: #757575;
 
 }
-/**summary education*/
-
-.name{
-    margin: 0px auto;
-}
-.summary-education{
+/*resume section style*/
+.resume-container{
     display: flex;
+    gap: 24px;
 }
-.title{
-    color: #474444;
-    font-size: 30px;
-    font-weight: 800;
-}
-.titleh-5{
-    font-size: 25px;
-    color: #474444 ;
-    font-weight: 600;
-}
-.title6{
-    font-size: 20px;
-    color: #757575 ;
-    font-weight: 300;
-}
-.summery-dis{
+.experience-description{
+    color: #757575;
     font-size: 16px;
-    color: #757575 ;
-    font-weight: 200;
+}
+.experience-title{
+    font-size: 30px;
+    color: #474444;
+}
+.experience-sub-title{
+    font-size: 25px;
+    color: #474444;
+}
+.resime-column-title {
+    color: #474747;
+    font-size: 30px;
+}
+.section-title{
+    color: #474747;
+    font-size: 30px;
+    text-align: center;
+}
+.btn-alline{
+    text-align: center;
+    margin: 50px;
 }

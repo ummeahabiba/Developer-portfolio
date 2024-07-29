@@ -197,3 +197,21 @@ main{
     text-align: center;
     margin: 50px;
 }
+/*footer style*/
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.footer-clmun{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
